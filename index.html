@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profil Institut Teknologi Bandung</title>
+
+    <!-- My Own CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet" />
+
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+  </head>
+
+  <body>
+    <header class="navbar-container">
+      <div class="logo">
+        <img
+          src="assets/img/Institut_Teknologi_Bandung_logo.svg"
+          alt="Institut Teknologi Bandung" />
+        <a href="">INSTITUT TEKNOLOGI BANDUNG</a>
+      </div>
+      <nav class="nav-list">
+        <ul>
+          <li><a href="#">Beranda</a></li>
+          <li><a href="#">Tentang</a></li>
+          <li><a href="#">Program Studi</a></li>
+          <li><a href="#">Kerjasama</a></li>
+          <li><a href="#">Kontak</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <img src="assets/img/itb1.jpeg" alt="Institut Teknologi Bandung" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/img/itb2.jpg" alt="Institut Teknologi Bandung" />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="assets/img/rektorat.png"
+              alt="Rektorat Institut Teknologi Bandung" />
+          </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+      </div>
+
+      <div id="about">
+        <article>
+          <img src="" alt="" />
+          <h2>Tentang Institut Teknologi Bandung</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, atque
+            labore dolorem dolores, perferendis maxime a ducimus fugit, ab
+            quaerat laborum repudiandae! Repellendus sapiente tempora totam
+            enim! Dignissimos corrupti molestias, officiis quas culpa, qui
+            obcaecati sint aperiam voluptatem ea laborum eos aliquam illum
+            beatae deserunt tempore eum eius minima. Odio magni aspernatur
+            recusandae corporis quos dolore dolor ad officiis voluptatum!
+          </p>
+        </article>
+      </div>
+    </main>
+
+    <script src="js/swiper-bundle.min.js"></script>
+
+    <script>
+      const swiper = new Swiper('.swiper', {
+        // Optional parameters
+        direction: 'horizontal',
+        loop: true,
+
+        // If we need pagination
+        pagination: {
+          el: '.swiper-pagination',
+          type: 'progressbar',
+        },
+
+        // Navigation arrows
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+
+        // And if we need scrollbar
+        scrollbar: {
+          el: '.swiper-scrollbar',
+        },
+      })
+    </script>
+  </body>
+</html>
