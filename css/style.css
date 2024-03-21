@@ -5,147 +5,71 @@
 }
 
 body {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Albert Sans', sans-serif;
 
   margin: 0;
   padding: 0;
 }
 
-/* NavBar Start  */
-header.navbar-container {
+.container {
   width: 100%;
-  background-color: #005bab;
-  padding: 10px;
-
-  position: sticky;
-  top: 0;
-
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-
-  z-index: 9999;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2rem;
 }
 
-header.navbar-container .logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 0px 18px;
+.section {
+  margin-top: 5rem;
 }
 
-header.navbar-container .logo img {
-  width: 60px;
+/* untuk layar xs */
+@media (min-width: 475px) {
+  .container {
+    max-width: 475px;
+  }
 }
 
-header.navbar-container .logo a {
-  font-family: 'Lora', sans-serif;
-  color: white;
-  font-size: 14px;
-  text-decoration: none;
+/* untuk layar sm */
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
 }
 
-header.navbar-container .nav-list ul {
-  padding-left: 0;
-  display: flex;
-  justify-content: center;
-  gap: 8px;
+/* untuk layar md */
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
 }
 
-header.navbar-container .nav-list li {
-  list-style-type: none;
+/* untuk layar lg */
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+
+  .section {
+    margin-top: 10rem;
+  }
 }
 
-header.navbar-container .nav-list li a {
-  padding: 8px 16px;
-  border-radius: 999px;
-
-  text-decoration: none;
-  font-size: 16px;
-  font-weight: 500;
-  color: white;
-
-  transition: all 0.2s ease-in-out;
+/* untuk layar xl */
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
 }
 
-header.navbar-container .nav-list li:hover a {
-  background-color: #261eff;
-  color: white;
+/* untuk layar 2xl */
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
 }
-/* NavBar End  */
 
 /* Main Start  */
 main {
   width: 100%;
 }
 /* Main End  */
-
-/* Slider Start  */
-.swiper {
-  width: 100%;
-}
-
-.swiper-wrapper,
-.swiper-slide {
-  height: 100%;
-}
-
-.swiper-slide img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-/* Slider End  */
-
-/* Medium devices (768px dan di bawahnya) */
-@media screen and (max-width: 768px) {
-  /* NavBar Start  */
-  header.navbar-container {
-    flex-direction: column;
-  }
-
-  header.navbar-container .nav-list ul {
-    flex-wrap: wrap;
-    column-gap: 0.5rem;
-  }
-  /* NavBar End  */
-}
-
-/* Medium devices (425px dan di bawahnya) */
-@media screen and (max-width: 425px) {
-  /* NavBar Start  */
-  header.navbar-container .nav-list {
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 5;
-    position: fixed;
-    background-color: #005bab;
-  }
-
-  header.navbar-container .logo {
-    gap: 0px 12px;
-  }
-
-  header.navbar-container .logo img {
-    width: 32px;
-  }
-
-  header.navbar-container .logo a {
-    font-size: 12px;
-  }
-
-  header.navbar-container .nav-list ul {
-    gap: 4px;
-  }
-
-  header.navbar-container .nav-list li a {
-    padding: 4px 8px;
-    border-radius: 999px;
-
-    text-decoration: none;
-    font-size: 12px;
-    font-weight: 500;
-  }
-  /* NavBar End  */
-}

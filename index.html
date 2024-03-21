@@ -1,118 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Profil Institut Teknologi Bandung</title>
 
-    <!-- My Own CSS -->
-    <link rel="stylesheet" href="css/style.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Profil Institut Teknologi Bandung</title>
 
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet" />
+  <!-- My Own CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/components/navbar.css" />
+  <link rel="stylesheet" href="css/components/slider.css" />
+  <link rel="stylesheet" href="css/components/about.css" />
 
-    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
-  </head>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
 
-  <body>
-    <header class="navbar-container">
-      <div class="logo">
-        <img
-          src="assets/img/Institut_Teknologi_Bandung_logo.svg"
-          alt="Institut Teknologi Bandung" />
-        <a href="">INSTITUT TEKNOLOGI BANDUNG</a>
-      </div>
-      <nav class="nav-list">
-        <ul>
-          <li><a href="#">Beranda</a></li>
-          <li><a href="#">Tentang</a></li>
-          <li><a href="#">Program Studi</a></li>
-          <li><a href="#">Kerjasama</a></li>
-          <li><a href="#">Kontak</a></li>
-        </ul>
-      </nav>
-    </header>
+  <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+</head>
 
-    <main>
-      <!-- Slider main container -->
-      <div class="swiper">
-        <!-- Additional required wrapper -->
-        <div class="swiper-wrapper">
-          <!-- Slides -->
-          <div class="swiper-slide">
-            <img src="assets/img/itb1.jpeg" alt="Institut Teknologi Bandung" />
-          </div>
-          <div class="swiper-slide">
-            <img src="assets/img/itb2.jpg" alt="Institut Teknologi Bandung" />
-          </div>
-          <div class="swiper-slide">
-            <img
-              src="assets/img/rektorat.png"
-              alt="Rektorat Institut Teknologi Bandung" />
-          </div>
+<body>
+  <header class="navbar-container">
+    <div class="logo">
+      <img src="assets/img/Institut_Teknologi_Bandung_logo.svg" alt="Institut Teknologi Bandung" />
+      <a href="">INSTITUT TEKNOLOGI BANDUNG</a>
+    </div>
+    <nav class="nav-list">
+      <ul>
+        <li><a href="#">Beranda</a></li>
+        <li><a href="#">Tentang</a></li>
+        <li><a href="#">Program Studi</a></li>
+        <li><a href="#">Kerjasama</a></li>
+        <li><a href="#">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <img src="assets/img/itb1.jpeg" alt="Institut Teknologi Bandung" loading='lazy' />
         </div>
-        <!-- If we need pagination -->
-        <div class="swiper-pagination"></div>
-
-        <!-- If we need navigation buttons -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-
-        <!-- If we need scrollbar -->
-        <div class="swiper-scrollbar"></div>
+        <div class="swiper-slide">
+          <img src="assets/img/itb2.jpg" alt="Institut Teknologi Bandung" loading='lazy' />
+        </div>
+        <div class="swiper-slide">
+          <img src="assets/img/rektorat.png" alt="Rektorat Institut Teknologi Bandung" loading='lazy' />
+        </div>
       </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
 
-      <div id="about">
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+
+      <!-- If we need scrollbar -->
+      <div class="swiper-scrollbar"></div>
+    </div>
+
+    <section id="about" class="container">
+      <div class="about-wrapper">
         <article>
-          <img src="" alt="" />
-          <h2>Tentang Institut Teknologi Bandung</h2>
+          <h2>Tentang <br />Institut Teknologi Bandung</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, atque
-            labore dolorem dolores, perferendis maxime a ducimus fugit, ab
-            quaerat laborum repudiandae! Repellendus sapiente tempora totam
-            enim! Dignissimos corrupti molestias, officiis quas culpa, qui
-            obcaecati sint aperiam voluptatem ea laborum eos aliquam illum
-            beatae deserunt tempore eum eius minima. Odio magni aspernatur
-            recusandae corporis quos dolore dolor ad officiis voluptatum!
+            Institut Teknologi Bandung (ITB) merupakan sekolah tinggi teknik
+            pertama di Indonesia yang didirikan pada tanggal 2 Maret 1959 di
+            Jawa Barat yang mengemban misi pengabdian ilmu pengetahuan dan
+            teknologi untuk memajukan Indonesia.
+          </p>
+          <p>
+            Lahir dalam suasana penuh dinamika yang dilandasi dengan semangat
+            perjuangan Proklamasi Kemerdekaan, ITB hadir untuk mengoptimalkan
+            pembangunan bangsa yang maju dan bermartabat.
           </p>
         </article>
+        <div class="about__image-container">
+          <img src="assets/img/wisuda.jpeg" alt="Wisuda Institut Teknologi Bandung" loading='lazy' />
+        </div>
       </div>
-    </main>
+    </section>
+  </main>
 
-    <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/swiper-bundle.min.js"></script>
 
-    <script>
-      const swiper = new Swiper('.swiper', {
-        // Optional parameters
-        direction: 'horizontal',
-        loop: true,
+  <script>
+    const swiper = new Swiper('.swiper', {
+      // Optional parameters
+      direction: 'horizontal',
+      loop: true,
 
-        // If we need pagination
-        pagination: {
-          el: '.swiper-pagination',
-          type: 'progressbar',
-        },
+      // If we need pagination
+      pagination: {
+        el: '.swiper-pagination',
+        type: 'progressbar',
+      },
 
-        // Navigation arrows
-        navigation: {
-          nextEl: '.swiper-button-next',
-          prevEl: '.swiper-button-prev',
-        },
+      // Navigation arrows
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
 
-        // And if we need scrollbar
-        scrollbar: {
-          el: '.swiper-scrollbar',
-        },
-      })
-    </script>
-  </body>
+      // And if we need scrollbar
+      scrollbar: {
+        el: '.swiper-scrollbar',
+      },
+    })
+  </script>
+</body>
+
 </html>

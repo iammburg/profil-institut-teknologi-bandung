@@ -1,0 +1,86 @@
+/* About Start */
+.about-wrapper {
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  padding: 30px;
+  gap: 60px;
+}
+
+#about article h2 {
+  color: #005bab;
+  text-align: left;
+  font-size: 36px;
+}
+
+#about article p {
+  color: #141729;
+  font-size: 18px;
+  text-align: left;
+}
+
+.about__image-container img {
+  width: 550px;
+}
+
+/* About End */
+
+/* (1280px dan di bawahnya) */
+@media screen and (max-width: 1280px) {
+  /* About Start */
+  .about-wrapper {
+    padding: 20px;
+  }
+
+  .about__image-container img {
+    width: 450px;
+  }
+
+  #about article h2 {
+    font-size: 24px;
+  }
+  /* About End */
+}
+
+/* (1024px dan di bawahnya) */
+@media screen and (max-width: 1024px) {
+  /* About Start */
+  .about-wrapper {
+    padding: 10px;
+    gap: 40px;
+  }
+
+  #about article p {
+    max-width: 500px;
+  }
+
+  .about__image-container img {
+    width: 300px;
+  }
+  /* About End */
+}
+
+/* (768px dan di bawahnya) */
+@media screen and (max-width: 768px) {
+  /* About Start */
+  .about-wrapper {
+    flex-direction: column;
+
+    /* padding: 30px; */
+    gap: 18px;
+  }
+  /* About End */
+}
+
+/* (375px dan di bawahnya) */
+@media screen and (max-width: 375px) {
+  /* About Start */
+  .about__image-container img {
+    width: 238px;
+  }
+  /* About End */
+}
