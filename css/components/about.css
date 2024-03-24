@@ -76,7 +76,32 @@
   /* About End */
 }
 
-/* (375px dan di bawahnya) */
+/* ((Mobile L) 425px dan di bawahnya) */
+@media screen and (max-width: 425px) {
+  section {
+    margin: 8px 0px 8px 0px;
+  }
+
+  .container {
+    padding: 22px;
+  }
+
+  /* About Start */
+  .about-wrapper {
+    padding: 0px;
+  }
+
+  .about__image-container img {
+    width: 238px;
+  }
+
+  #about article h2 {
+    margin-top: 0px;
+  }
+  /* About End */
+}
+
+/* ((Mobile M) 375px dan di bawahnya) */
 @media screen and (max-width: 375px) {
   section {
     margin: 8px 0px 8px 0px;
