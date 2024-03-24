@@ -94,5 +94,9 @@
   .about__image-container img {
     width: 238px;
   }
+
+  #about article h2 {
+    margin-top: 0px;
+  }
   /* About End */
 }
