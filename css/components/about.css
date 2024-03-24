@@ -78,7 +78,19 @@
 
 /* (375px dan di bawahnya) */
 @media screen and (max-width: 375px) {
+  section {
+    margin: 8px 0px 8px 0px;
+  }
+
+  .container {
+    padding: 22px;
+  }
+
   /* About Start */
+  .about-wrapper {
+    padding: 0px;
+  }
+
   .about__image-container img {
     width: 238px;
   }

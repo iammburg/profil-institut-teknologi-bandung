@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="css/components/navbar.css" />
   <link rel="stylesheet" href="css/components/slider.css" />
   <link rel="stylesheet" href="css/components/about.css" />
+  <link rel="stylesheet" href="css/components/education.css" />
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -34,9 +35,9 @@
     </div>
     <nav class="nav-list">
       <ul>
-        <li><a href="#">Beranda</a></li>
-        <li><a href="#">Tentang</a></li>
-        <li><a href="#">Program Studi</a></li>
+        <li><a href="#home">Beranda</a></li>
+        <li><a href="#about">Tentang</a></li>
+        <li><a href="#education">Pendidikan</a></li>
         <li><a href="#">Kerjasama</a></li>
         <li><a href="#">Kontak</a></li>
       </ul>
@@ -44,32 +45,35 @@
   </header>
 
   <main>
-    <!-- Slider main container -->
-    <div class="swiper">
-      <!-- Additional required wrapper -->
-      <div class="swiper-wrapper">
-        <!-- Slides -->
-        <div class="swiper-slide">
-          <img src="assets/img/itb1.jpeg" alt="Institut Teknologi Bandung" loading='lazy' />
-        </div>
-        <div class="swiper-slide">
-          <img src="assets/img/itb2.jpg" alt="Institut Teknologi Bandung" loading='lazy' />
-        </div>
-        <div class="swiper-slide">
-          <img src="assets/img/rektorat.png" alt="Rektorat Institut Teknologi Bandung" loading='lazy' />
-        </div>
-      </div>
-      <!-- If we need pagination -->
-      <div class="swiper-pagination"></div>
+    <!-- Home Section  -->
+      <!-- Slider main container -->
+        <div id="home" class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <img src="assets/img/itb1.jpeg" alt="Institut Teknologi Bandung" loading='lazy' />
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img/itb2.jpg" alt="Institut Teknologi Bandung" loading='lazy' />
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img/rektorat.png" alt="Rektorat Institut Teknologi Bandung" loading='lazy' />
+            </div>
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
 
-      <!-- If we need navigation buttons -->
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-button-next"></div>
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
 
-      <!-- If we need scrollbar -->
-      <div class="swiper-scrollbar"></div>
-    </div>
+          <!-- If we need scrollbar -->
+          <div class="swiper-scrollbar"></div>
+        </div>
+    <!-- End of Home Section -->
 
+    <!-- About Section  -->
     <section id="about" class="container">
       <div class="about-wrapper">
         <article>
@@ -91,6 +95,35 @@
         </div>
       </div>
     </section>
+    <!-- End of About Section -->
+
+    <!-- Education Section -->
+    <section id="education">
+      <div class="education-wrapper">
+        <div class="education__card-container container">
+          <div class="education__card">
+            <h3>12</h3>
+            <span>FAKULTAS DAN SEKOLAH</span>
+            <p>Terdiri dari dua belas fakultas dan sekolah, Institut Teknologi Bandung tidak hanya difokuskan pada bidang sains dan
+            rekayasa tetapi juga seni dan bisnis manajemen yang sudah diakui di level nasional maupun internasional.</p>
+            <div class="education__button">SELENGKAPNYA </div>
+          </div>
+          <div class="education__card">
+            <h3>131</h3>
+            <span>PROGRAM STUDI</span>
+            <p>ITB memiliki beragam program studi sesuai minat Anda yang telah terakreditasi serta termasuk ke dalam daftar peringkat
+            nasional.</p>
+          </div>
+          <div class="education__card">
+            <h3>111</h3>
+            <span>KELOMPOK KEAHLIAN</span>
+            <p>Kelompok Keilmuan/Keahlian merupakan wadah sesuai dengan keilmuan dan keahlian staf pengajar ITB untuk berbagi
+            pengetahuan, melakukan riset, dan berinovasi.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Education Section -->
   </main>
 
   <script src="js/swiper-bundle.min.js"></script>
