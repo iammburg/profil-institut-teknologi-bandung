@@ -11,16 +11,12 @@
   gap: 20px;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 
-/* .education__card p {
-    margin-bottom: 32px;
-} */
-
 .education__card {
-  width: 385px;
-  height: 345px;
+  width: 360px;
+  height: 360px;
 
   display: flex;
   flex-direction: column;
@@ -30,19 +26,89 @@
   background-color: white;
   border: #005bab 1px solid;
   padding: 32px;
+
+  transition: transform 0.3s ease;
+  transform-origin: top;
+}
+
+.education__card:hover {
+  transform: translateY(-18px);
 }
 
 .education__card h3 {
-    font-weight: bold;
-    font-size: 40px;
-    margin: 8px 0px;
-    color: #005bab;
+  font-weight: bold;
+  font-size: 40px;
+  margin: 8px 0px;
+  color: #005bab;
 }
 
 .education__card span {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .education__card p {
-    margin: 4px 0px;
+  margin: 4px 0px;
+}
+
+.education__title h3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 8px;
+}
+
+.education__title i {
+  width: auto;
+}
+
+.education__button {
+  background-color: #005bab;
+  color: white;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.education__card a {
+  text-decoration: none;
+  color: white;
+}
+
+/* ((Laptop) 1024px dan di bawahnya) */
+@media screen and (max-width: 1024px) {
+  .education__card {
+    width: 285px;
+    height: 380px;
+  }
+
+  .education__card h3 {
+    font-size: 30px;
+  }
+}
+
+/* ((Tablet) 768px dan di bawahnya) */
+@media screen and (max-width: 768px) {
+  .education__card {
+    width: 670px;
+    height: auto;
+    padding: 18px;
+  }
+
+  .education__card h3 {
+    font-size: 30px;
+  }
+}
+
+/* ((Mobile L) 425px dan di bawahnya) */
+@media screen and (max-width: 425px) {
+  .education__card {
+    width: 385px;
+    height: auto;
+  }
+}
+
+/* ((Mobile S) 320px dan di bawahnya) */
+@media screen and (max-width: 320px) {
+  .education__card {
+    padding: 18px;
+  }
 }
