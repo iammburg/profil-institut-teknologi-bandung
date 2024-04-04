@@ -11,6 +11,10 @@
   gap: 60px;
 }
 
+.about-wrapper hr {
+  color: #005bab;
+}
+
 #about article h2 {
   color: #005bab;
   text-align: left;
@@ -25,6 +29,25 @@
 
 .about__image-container img {
   width: 550px;
+}
+
+.education__button {
+  background-color: #005bab;
+  color: white;
+  width: fit-content;
+
+  transition: background-color 0.3s ease;
+  transform-origin: top;
+}
+
+.education__button a {
+  text-decoration: none;
+  color: white;
+}
+
+.education__button:hover {
+  background-color: #003d4c;
+  /* Mengubah warna background saat dihover */
 }
 
 /* About End */

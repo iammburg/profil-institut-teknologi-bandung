@@ -1,0 +1,120 @@
+#vision-mission{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#vision-mission h2{
+    font-size: 36px;
+    text-align: center;
+    color: #005bab;
+}
+
+.vision-mission__container {
+    max-width: 1440px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #005bab;
+    /* padding: 0px; */
+}
+
+.vision-mission__container>div {
+    flex: 1 1 50%;
+    text-align: center;
+}
+
+.vision-mission__items img {
+    width: 100%;
+    height: 100%;
+}
+
+.vision-mission__container h3,
+.vision-mission__container p {
+    text-align: left;
+    color: white;
+}
+
+.vision-mission__container h3 {
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+.vision-mission__container p {
+    font-size: 18px;
+}
+
+.vision-mission__vission, .vision-mission__mission{
+    padding: 32px;
+}
+
+.vision-mission__items {
+    overflow: hidden;
+}
+
+.vision-mission__items img {
+    transition: transform 0.3s ease;
+}
+
+.vision-mission__items:hover img {
+    transform: scale(1.1);
+}
+
+/* (1279px dan di bawahnya) */
+@media screen and (max-width: 1279px) {
+    #vision-mission {
+        margin-top: 38rem;
+    }
+}
+
+/* ((Laptop) 1024px dan di bawahnya) */
+@media screen and (max-width: 1024px) {
+    #vision-mission {
+        margin-top: 120px;
+    }
+}
+
+/* (1023px dan di bawahnya) */
+@media screen and (max-width: 1023px) {
+    .vision-mission__container {
+        flex-direction: column;
+    }
+
+    .vision-mission__container>div {
+        width: 100%;
+    }
+
+    #vision-mission {
+        margin-top: 38rem;
+    }
+}
+
+/* ((Tablet) 639px dan di bawahnya) */
+@media screen and (max-width: 768px) {
+    #vision-mission {
+        margin-top: 32rem;
+    }
+}
+
+/* (639px dan di bawahnya) */
+@media screen and (max-width: 639px) {
+    #vision-mission {
+        margin-top: 36rem;
+    }
+}
+
+/* (436px dan di bawahnya) */
+@media screen and (max-width: 436px) {
+    #vision-mission {
+        margin-top: 42rem;
+    }
+}
+
+/* (320px dan di bawahnya) */
+@media screen and (max-width: 320px) {
+    #vision-mission {
+        margin-top: 46rem;
+    }
+}
