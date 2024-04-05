@@ -31,7 +31,7 @@
   width: 550px;
 }
 
-.education__button {
+/* .education__button {
   background-color: #005bab;
   color: white;
   width: fit-content;
@@ -47,8 +47,7 @@
 
 .education__button:hover {
   background-color: #003d4c;
-  /* Mengubah warna background saat dihover */
-}
+} */
 
 /* About End */
 

@@ -91,21 +91,21 @@
     }
 
     #vision-mission {
-        margin-top: 38rem;
+        margin-top: 40rem;
     }
 }
 
 /* ((Tablet) 639px dan di bawahnya) */
 @media screen and (max-width: 768px) {
     #vision-mission {
-        margin-top: 32rem;
+        margin-top: 34rem;
     }
 }
 
 /* (639px dan di bawahnya) */
 @media screen and (max-width: 639px) {
     #vision-mission {
-        margin-top: 36rem;
+        margin-top: 38rem;
     }
 }
 
@@ -113,6 +113,13 @@
 @media screen and (max-width: 436px) {
     #vision-mission {
         margin-top: 42rem;
+    }
+}
+
+/* (341px dan di bawahnya) */
+@media screen and (max-width: 341px) {
+    #vision-mission {
+        margin-top: 47rem;
     }
 }
 
