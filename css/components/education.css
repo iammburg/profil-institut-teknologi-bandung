@@ -1,4 +1,4 @@
-#education{
+#education {
   margin-bottom: 240px;
 }
 
@@ -32,7 +32,7 @@
   border: #005bab 1px solid;
   padding: 32px;
 
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease-in-out;
   transform-origin: top;
 }
 
@@ -71,6 +71,11 @@
   color: white;
   margin-top: 10px;
   padding: 10px;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.education__button:hover {
+  background-color: rgb(0, 43, 54);
 }
 
 .education__card a {

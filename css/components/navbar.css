@@ -12,6 +12,8 @@ header.navbar-container {
   align-items: center;
 
   z-index: 9999;
+
+  border-bottom: #fccc2b 2px solid;
 }
 
 header.navbar-container .logo {
@@ -118,7 +120,7 @@ header.navbar-container .nav-list li:hover a {
 /* (363px dan di bawahnya) */
 @media screen and (max-width: 363px) {
   /* NavBar Start  */
-   header.navbar-container .nav-list li a {
+  header.navbar-container .nav-list li a {
     padding: 4px 8px;
     border-radius: 999px;
 

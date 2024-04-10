@@ -12,7 +12,10 @@
 }
 
 .about-wrapper hr {
-  color: #005bab;
+  height: 4px;
+  border: none;
+  background-color: rgb(95, 95, 95);
+  border-radius: 10px;
 }
 
 #about article h2 {
@@ -30,24 +33,6 @@
 .about__image-container img {
   width: 550px;
 }
-
-/* .education__button {
-  background-color: #005bab;
-  color: white;
-  width: fit-content;
-
-  transition: background-color 0.3s ease;
-  transform-origin: top;
-}
-
-.education__button a {
-  text-decoration: none;
-  color: white;
-}
-
-.education__button:hover {
-  background-color: #003d4c;
-} */
 
 /* About End */
 
@@ -126,7 +111,7 @@
   }
 
   .about__image-container img {
-    width: 360px;
+    width: 330px;
   }
 
   #about article h2 {
