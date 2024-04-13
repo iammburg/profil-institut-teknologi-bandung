@@ -95,39 +95,6 @@
   color: white;
 }
 
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-toggle {
-  background-color: #f1f1f1;
-  color: #333;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-}
-
-.dropdown-menu {
-  display: none;
-  position: absolute;
-  background-color: #fff;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  padding: 10px;
-  z-index: 1;
-}
-
-.dropdown-menu a {
-  display: block;
-  padding: 8px 10px;
-  text-decoration: none;
-  color: #333;
-}
-
-.dropdown-menu a:hover {
-  background-color: #f1f1f1;
-}
-
 /* ((Laptop) 1024px dan di bawahnya) */
 @media screen and (max-width: 1024px) {
   .visit__card {
