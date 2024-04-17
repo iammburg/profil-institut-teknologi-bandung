@@ -1,16 +1,1 @@
-/* Slider Start  */
-.swiper {
-  width: 100%;
-}
-
-.swiper-wrapper,
-.swiper-slide {
-  height: 100%;
-}
-
-.swiper-slide img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-/* Slider End  */
+.swiper{width:100%}.swiper-wrapper,.swiper-slide{height:100%}.swiper-slide img{width:100%;height:100%;object-fit:cover}
